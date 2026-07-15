@@ -58,6 +58,6 @@ final class Store: ObservableObject {
     }
 
     static let seedData: [ZoneTaskEntry] = [
-        ZoneTaskEntry(title: "First Zone Task", stage: stageOptions[0], date: Date(), note: "Tap + to add your own."),
+        ZoneTaskEntry(title: "First Zone Task", stage: ZoneTaskEntry.stageOptions[0], date: Date(), note: "Tap + to add your own."),
     ]
 }
